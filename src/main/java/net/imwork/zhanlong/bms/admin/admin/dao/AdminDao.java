@@ -13,6 +13,7 @@ public class AdminDao
 
     /**
      * 通过管理员登录名和登录密码查询
+     *
      * @param adminname
      * @param adminpwd
      * @return
