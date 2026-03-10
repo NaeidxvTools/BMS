@@ -1,5 +1,5 @@
 package net.imwork.zhanlong.bms.user.service.exception;
-
+@SuppressWarnings("ALL")
 public class UserException extends Exception
 {
     public UserException()

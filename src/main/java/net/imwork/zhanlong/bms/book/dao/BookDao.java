@@ -21,6 +21,7 @@ import java.util.Map;
 /**
  * 图书模块的持久层
  */
+@SuppressWarnings("ALL")
 public class BookDao
 {
     private QueryRunner queryRunner = new TxQueryRunner();

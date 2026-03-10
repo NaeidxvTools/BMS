@@ -16,7 +16,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
-
+@SuppressWarnings("ALL")
 @WebServlet(name = "AdminBookServlet",urlPatterns = "/admin/AdminBookServlet")
 public class AdminBookServlet extends BaseServlet
 {

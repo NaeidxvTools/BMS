@@ -6,7 +6,7 @@ package net.imwork.zhanlong.bms.user.domain;
  * 1.t_user表：因为我们需要把t_user表查询出的数据封装到User对象中
  * 2.该模块所有表单：因为我们需要把表单数据封装到User对象中
  */
-
+@SuppressWarnings("ALL")
 public class User
 {
     //对应t_user数据库表

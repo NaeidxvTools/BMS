@@ -13,7 +13,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-
+@SuppressWarnings("all")
 public class CartItemDao
 {
     private QueryRunner queryRunner = new TxQueryRunner();

@@ -6,7 +6,7 @@ import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 
 import java.sql.SQLException;
-
+@SuppressWarnings("ALL")
 public class AdminDao
 {
     QueryRunner queryRunner = new TxQueryRunner();

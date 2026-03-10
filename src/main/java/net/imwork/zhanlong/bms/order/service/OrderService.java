@@ -7,7 +7,7 @@ import net.imwork.zhanlong.bms.user.domain.User;
 import net.imwork.zhanlong.jdbc.JdbcUtils;
 
 import java.sql.SQLException;
-
+@SuppressWarnings("ALL")
 public class OrderService
 {
     private OrderDao orderDao = new OrderDao();

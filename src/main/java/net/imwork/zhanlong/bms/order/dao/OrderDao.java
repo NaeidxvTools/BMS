@@ -1,24 +1,22 @@
 package net.imwork.zhanlong.bms.order.dao;
 
-import net.imwork.zhanlong.bms.user.domain.User;
-import net.imwork.zhanlong.commons.CommonUtils;
 import net.imwork.zhanlong.bms.book.domain.Book;
 import net.imwork.zhanlong.bms.order.domain.Order;
 import net.imwork.zhanlong.bms.order.domain.OrderItem;
 import net.imwork.zhanlong.bms.pager.Expression;
 import net.imwork.zhanlong.bms.pager.PageBean;
 import net.imwork.zhanlong.bms.pager.PageConstants;
+import net.imwork.zhanlong.bms.user.domain.User;
+import net.imwork.zhanlong.commons.CommonUtils;
 import net.imwork.zhanlong.jdbc.TxQueryRunner;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.*;
-import org.junit.Test;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.logging.Handler;
-
+@SuppressWarnings("ALL")
 public class OrderDao
 {
     private QueryRunner queryRunner = new TxQueryRunner();

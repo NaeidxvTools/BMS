@@ -3,7 +3,7 @@ package net.imwork.zhanlong.bms.order.domain;
 import net.imwork.zhanlong.bms.user.domain.User;
 
 import java.util.List;
-
+@SuppressWarnings("ALL")
 public class Order
 {
     private String oid; //主键

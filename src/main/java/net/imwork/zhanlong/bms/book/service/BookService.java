@@ -10,6 +10,7 @@ import java.sql.SQLException;
 /**
  * 图书模块的业务层
  */
+@SuppressWarnings("ALL")
 public class BookService
 {
     private BookDao bookDao = new BookDao();

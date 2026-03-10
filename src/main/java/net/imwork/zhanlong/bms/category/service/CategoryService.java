@@ -9,6 +9,7 @@ import java.util.List;
 /**
  * 分类模块的业务层
  */
+@SuppressWarnings("all")
 public class CategoryService
 {
     private CategoryDao categoryDao = new CategoryDao();

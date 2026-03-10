@@ -1,7 +1,7 @@
 package net.imwork.zhanlong.bms.order.domain;
 
 import net.imwork.zhanlong.bms.book.domain.Book;
-
+@SuppressWarnings("ALL")
 public class OrderItem
 {
     private String orderItemId;//主键

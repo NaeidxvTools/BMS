@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
-
+@SuppressWarnings("all")
 @WebServlet(name = "CartItemServlet", urlPatterns = "/CartItemServlet")
 public class CartItemServlet extends BaseServlet
 {

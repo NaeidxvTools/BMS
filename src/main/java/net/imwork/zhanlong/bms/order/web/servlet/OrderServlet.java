@@ -1,6 +1,5 @@
 package net.imwork.zhanlong.bms.order.web.servlet;
 
-import net.imwork.zhanlong.commons.CommonUtils;
 import net.imwork.zhanlong.bms.cart.domain.CartItem;
 import net.imwork.zhanlong.bms.cart.service.CartItemService;
 import net.imwork.zhanlong.bms.order.domain.Order;
@@ -8,6 +7,7 @@ import net.imwork.zhanlong.bms.order.domain.OrderItem;
 import net.imwork.zhanlong.bms.order.service.OrderService;
 import net.imwork.zhanlong.bms.pager.PageBean;
 import net.imwork.zhanlong.bms.user.domain.User;
+import net.imwork.zhanlong.commons.CommonUtils;
 import net.imwork.zhanlong.servlet.BaseServlet;
 
 import javax.servlet.ServletException;
@@ -19,8 +19,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.Properties;
-
+@SuppressWarnings("ALL")
 @WebServlet(name = "OrderServlet",urlPatterns = "/OrderServlet")
 public class OrderServlet extends BaseServlet
 {

@@ -16,6 +16,7 @@ import java.io.IOException;
 /**
  * 图书模块的web层
  */
+@SuppressWarnings("ALL")
 @WebServlet(name = "BookServlet",urlPatterns = "/BookServlet")
 public class BookServlet extends BaseServlet
 {
