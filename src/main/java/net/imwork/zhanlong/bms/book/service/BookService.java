@@ -1,9 +1,7 @@
 package net.imwork.zhanlong.bms.book.service;
-
 import net.imwork.zhanlong.bms.book.dao.BookDao;
 import net.imwork.zhanlong.bms.book.domain.Book;
 import net.imwork.zhanlong.bms.pager.PageBean;
-
 import java.sql.SQLException;
 
 /**
