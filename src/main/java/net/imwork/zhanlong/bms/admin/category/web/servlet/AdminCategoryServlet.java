@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
-
+@SuppressWarnings("ALL")
 @WebServlet(name = "AdminCategoryServlet",urlPatterns = "/admin/AdminCategoryServlet")
 public class AdminCategoryServlet extends BaseServlet
 {

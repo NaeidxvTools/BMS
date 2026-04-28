@@ -6,13 +6,14 @@ import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 
 import java.sql.SQLException;
-
+@SuppressWarnings("ALL")
 public class AdminDao
 {
     QueryRunner queryRunner = new TxQueryRunner();
 
     /**
      * 通过管理员登录名和登录密码查询
+     *
      * @param adminname
      * @param adminpwd
      * @return

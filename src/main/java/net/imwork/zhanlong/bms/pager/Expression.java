@@ -1,5 +1,5 @@
 package net.imwork.zhanlong.bms.pager;
-
+@SuppressWarnings("ALL")
 public class Expression
 {
     private String name;

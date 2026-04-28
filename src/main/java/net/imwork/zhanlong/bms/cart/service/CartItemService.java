@@ -6,7 +6,7 @@ import net.imwork.zhanlong.bms.cart.domain.CartItem;
 
 import java.sql.SQLException;
 import java.util.List;
-
+@SuppressWarnings("all")
 public class CartItemService
 {
     private CartItemDao cartItemDao = new CartItemDao();

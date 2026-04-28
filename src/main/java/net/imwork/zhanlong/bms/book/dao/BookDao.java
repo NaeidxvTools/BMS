@@ -11,8 +11,7 @@ import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.MapHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
-import org.junit.Test;
-import org.junit.jupiter.api.DynamicTest;
+
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -22,6 +21,7 @@ import java.util.Map;
 /**
  * 图书模块的持久层
  */
+@SuppressWarnings("ALL")
 public class BookDao
 {
     private QueryRunner queryRunner = new TxQueryRunner();

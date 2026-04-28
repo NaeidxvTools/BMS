@@ -4,7 +4,7 @@ import net.imwork.zhanlong.bms.book.domain.Book;
 import net.imwork.zhanlong.bms.user.domain.User;
 
 import java.math.BigDecimal;
-
+@SuppressWarnings("all")
 public class CartItem
 {
     private String cartItemId;//主键

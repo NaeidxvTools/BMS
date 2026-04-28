@@ -18,6 +18,7 @@ import java.util.Map;
 /**
  * 用户模块WEB层
  */
+@SuppressWarnings("ALL")
 @WebServlet(name = "UserServlet",urlPatterns = "/UserServlet")
 public class UserServlet extends BaseServlet
 {

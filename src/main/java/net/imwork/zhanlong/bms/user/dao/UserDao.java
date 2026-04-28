@@ -11,6 +11,7 @@ import java.sql.SQLException;
 /**
  * 用户模块的持久层
  */
+@SuppressWarnings("ALL")
 public class UserDao
 {
     QueryRunner queryRunner = new TxQueryRunner();

@@ -5,6 +5,7 @@ import net.imwork.zhanlong.bms.category.domain.Category;
 /**
  * 图书模块实体类
  */
+@SuppressWarnings("ALL")
 public class Book
 {
     private String bid;//主键

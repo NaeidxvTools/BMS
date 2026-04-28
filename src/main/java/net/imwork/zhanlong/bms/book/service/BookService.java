@@ -1,15 +1,13 @@
 package net.imwork.zhanlong.bms.book.service;
-
 import net.imwork.zhanlong.bms.book.dao.BookDao;
 import net.imwork.zhanlong.bms.book.domain.Book;
 import net.imwork.zhanlong.bms.pager.PageBean;
-import net.imwork.zhanlong.commons.CommonUtils;
-
 import java.sql.SQLException;
 
 /**
  * 图书模块的业务层
  */
+@SuppressWarnings("ALL")
 public class BookService
 {
     private BookDao bookDao = new BookDao();

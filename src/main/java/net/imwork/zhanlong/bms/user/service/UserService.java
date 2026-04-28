@@ -16,6 +16,7 @@ import java.util.Properties;
 /**
  * 用户模块的业务层
  */
+@SuppressWarnings("ALL")
 public class UserService
 {
     private UserDao userDao = new UserDao();

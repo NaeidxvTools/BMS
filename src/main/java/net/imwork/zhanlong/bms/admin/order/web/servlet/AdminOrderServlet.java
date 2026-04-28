@@ -11,7 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-
+@SuppressWarnings("ALL")
 @WebServlet(name = "AdminOrderServlet",urlPatterns = "/admin/AdminOrderServlet")
 public class AdminOrderServlet extends BaseServlet
 {

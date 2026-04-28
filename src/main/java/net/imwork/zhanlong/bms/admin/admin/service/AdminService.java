@@ -4,7 +4,7 @@ import net.imwork.zhanlong.bms.admin.admin.dao.AdminDao;
 import net.imwork.zhanlong.bms.admin.admin.domain.Admin;
 
 import java.sql.SQLException;
-
+@SuppressWarnings("ALL")
 public class AdminService
 {
     private AdminDao adminDao = new AdminDao();

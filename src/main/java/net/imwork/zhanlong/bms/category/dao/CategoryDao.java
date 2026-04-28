@@ -16,6 +16,7 @@ import java.util.Map;
 /**
  * 分类模块持久层
  */
+@SuppressWarnings("all")
 public class CategoryDao
 {
     private QueryRunner queryRunner = new TxQueryRunner();

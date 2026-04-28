@@ -1,5 +1,5 @@
 package net.imwork.zhanlong.bms.admin.admin.domain;
-
+@SuppressWarnings("ALL")
 public class Admin
 {
     private String adminId;//主键
